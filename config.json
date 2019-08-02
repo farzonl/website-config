@@ -6,7 +6,7 @@
       "Twitter": "https://twitter.com/noztol",
       "LinkedIn": "https://www.linkedin.com/in/farzon-l-b0491a75/",
       "Mail": "mailto:jobs@farzon.org",
-      "Call": "tel:6785878058&#8236"
+      "Call": "tel:6785878058"
     }
   },
   "Skills": {
@@ -19,7 +19,7 @@
       "Computer Architecture"
     ],
     "Frameworks": [
-      "Node.js",
+      "Node-js",
       "Dot-Net",
       "Arduino",
       "OpenGL",
@@ -42,19 +42,19 @@
       "orientation": "bottom",
       "item": [
         {
-          "name": "Profiling and Benchmarking Computational Offloading",
+          "name": "Analysis of Offloading",
           "url": "https://farzon.org/files/papers/CS6250_Final_Paper.pdf",
-          "description": "A project where we implemented a testing framework to measure the practicality of offloading machine learning, augmented reality, & image processing jobs to a remote server.",
+          "description": "A testing framework to measure the practicality of offloading ML, AR, CV, & image processing jobs to a remote server.",
           "tag": "Networking"
         },
         {
-          "name": "Morph between two quads using averages of edge-spiral morphs",
+          "name": "Edge-spiral morphs between Quads",
           "url": "https://farzon.org/files/papers/CS6491_P1.pdf",
           "description": "A project where we produce a Spiral Edge Morph using the SQUINT method.",
           "tag": "Graphics"
         },
         {
-          "name": "Animation of Image warp using SQUINT grid of tiles",
+          "name": "Image warping using a SQUINT grid of tiles",
           "url": "https://farzon.org/files/papers/CS6491_P2.pdf",
           "description": "A project where we developed a quad mesh using SQUINT Maps for texture mapping and image warping.",
           "tag": "Graphics"
@@ -72,7 +72,7 @@
           "tag": "Graphics"
         },
         {
-          "name": "Volume displacement of a caterpillar through two pillars",
+          "name": "Volume displacement through two pillars",
           "url": "https://farzon.org/files/papers/CS6491_Project_3.pdf",
           "description": "To re-distribute mass of the worm both vertically and horizontally.",
           "tag": "Graphics"
@@ -93,13 +93,13 @@
           "tag": "Networking"
         },
         {
-          "name": "Profiling and Optimizing Particle Simulations Using GPGPUs",
+          "name": "Profiling and Optimizing Particle Sims Using GPGPUs",
           "url": "https://farzon.org/files/posters/LAMMPS_Poster3.pdf",
           "description": "A project that parallelized n-body problems using both GPUs and MPI. This poster won awards at UROC.",
           "tag": "HPC"
         },
         {
-          "name": "The Cloud as an Energy Efficient Accelerator",
+          "name": "Offloading for Energy Saving Speedups",
           "url": "https://farzon.org/files/posters/CloudPoster.pdf",
           "description": "A project that measured Offloading image processing functions. This poster won awards at UROC.",
           "tag": "Networking"
@@ -107,7 +107,7 @@
         {
           "name": "GT Night Rover (Overview)",
           "url": "https://farzon.org/files/posters/GTNR_PURA_v1.1.pdf",
-          "description": "A multi PURA award winning project with the goal of creating a rover that could survive a multi day night cycle by optimizing for time sitting in the sun.",
+          "description": "A 2x PURA award winning project with the goal of creating a rover that could survive a multi day night cycle.",
           "tag": "Robotics"
         },
         {
