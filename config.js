@@ -36,18 +36,17 @@ const configuration = {
   Resume: "https://farzon.org/files/Resume.pdf",
   AdditionalSections: [
     {
-      direction: "row",
       items: [
         {
           description: `I am a computer scientist who graduated from Georgia Tech. 
-          During my time at Tech I was a teaching assistant for two courses, 
-          one on data structures and another on software design. 
-          I also participated in research labs from 2011-2013 and was a finalist
-          in a systems engineering design competition, the Intel Cornell Cup in 2012. 
-          At Tech I specialized in two threads. Computer Architecture and Artificial Intelligence. 
-          I did research in areas as diverse as distributed networks, robotics, molecular simulators, 
-          and computation offloading to the cloud. My research also won awards at UROC from 2011-2013 
-          and I was a PURA award Recipient in 2012.`,
+              During my time at Tech I was a teaching assistant for two courses, 
+              one on data structures and another on software design. 
+              I also participated in research labs from 2011-2013 and was a finalist
+              in a systems engineering design competition, the Intel Cornell Cup in 2012. 
+              At Tech I specialized in two threads. Computer Architecture and Artificial Intelligence. 
+              I did research in areas as diverse as distributed networks, robotics, molecular simulators, 
+              and computation offloading to the cloud. My research also won awards at UROC from 2011-2013 
+              and I was a PURA award Recipient in 2012.`,
           type: "textBlock"
         },
         {
@@ -70,15 +69,7 @@ const configuration = {
             }
           ],
           type: "caurosel"
-        }
-      ],
-      type: "contentGrid",
-      orientation: "top"
-    },
-
-    {
-      direction: "row",
-      items: [
+        },
         {
           images: [
             {
@@ -118,61 +109,56 @@ const configuration = {
               imgPath: "https://farzon.org/imgs/intel/dephth1.png"
             },
             {
-              label: "Color Interpolation & Audio augmentation using hand gestures",
+              label:
+                "Color Interpolation & Audio augmentation using hand gestures",
               imgPath: "https://farzon.org/imgs/intel/perceptualGesture.png"
             },
             {
               label: "MIDI piano controls using hand gestures",
               imgPath: "https://farzon.org/imgs/intel/piano.png"
-            },
+            }
           ],
           type: "caurosel"
         },
         {
           description: `The Intel competition led to two internships with Intel where 
-                        I worked on natural user interfaces the first year and on video 
-                        compressions algorithms the second year.`,
+                            I worked on natural user interfaces the first year and on video 
+                            compressions algorithms the second year.`,
           type: "textBlock"
-        }
-      ],
-      type: "contentGrid",
-      orientation: "top"
-    },
-    {
-      direction: "row",
-      items: [
+        },
         {
           description: `After graduation I joined Microsoft on a then 
-          secret project today known as the Edge browser. I worked to improve the performance 
-          of their JavaScript compiler while also bringing it into compliance with the ecmascript 6 
-          standard. The release of Windows 10 was a monumental achievement for me and my team. 
-          For the first time Microsoft shipped a browser that had a faster and more standard 
-          compliant JavaScript compiler than Google, Mozilla, and Apple. I then worked on an 
-          extensive effort to open source and port our compiler to Linux and OS X. The project can 
-          be found on Github at Microsoft/Chakracore.`,
+              secret project today known as the Edge browser. I worked to improve the performance 
+              of their JavaScript compiler while also bringing it into compliance with the ecmascript 6 
+              standard. The release of Windows 10 was a monumental achievement for me and my team. 
+              For the first time Microsoft shipped a browser that had a faster and more standard 
+              compliant JavaScript compiler than Google, Mozilla, and Apple. I then worked on an 
+              extensive effort to open source and port our compiler to Linux and OS X. The project can 
+              be found on Github at Microsoft/Chakracore.`,
           type: "textBlock"
         },
         {
           description: ` I left Microsoft to work at a Startup (Ionic Security). The company is 
-          primarily an endpoint encryption platform. On my first team we focus on file encryption, 
-          where I built out an  IRM (Information Rights Management) and analytics strategy for them. 
-          I reverse engineered closed source productivity applications to inject code into a process for
-          analysis and controlling the flow of data between apps, printers, and users. Later
-          I transitioned to work on their sdk team where I was instrumental in the creation of a 
-          native java and javascript sdk while also adding many features to their c++ sdk such as 
-          an extensible offline key vault api.`,
+              primarily an endpoint encryption platform. On my first team we focus on file encryption, 
+              where I built out an  IRM (Information Rights Management) and analytics strategy for them. 
+              I reverse engineered closed source productivity applications to inject code into a process for
+              analysis and controlling the flow of data between apps, printers, and users. Later
+              I transitioned to work on their sdk team where I was instrumental in the creation of a 
+              native java and javascript sdk while also adding many features to their c++ sdk such as 
+              an extensible offline key vault api.`,
           type: "textBlock"
         },
         {
           description: ` I am now a Graduate Research engineer in the HParch 
-          lab at Gatech where I do research in computer architecture so that I can pursue a masters 
-          degree in my new passion computer graphics.`,
+              lab at Gatech where I do research in computer architecture so that I can pursue a masters 
+              degree in my new passion computer graphics.`,
           type: "textBlock"
         }
       ],
-      type: "contentGrid",
+      type: "horizontalScroller",
       orientation: "top"
     },
+
     {
       type: "collection",
       barId: "Papers",
