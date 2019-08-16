@@ -2,35 +2,6 @@ const fs = require("fs");
 
 const configuration = {
   About: {
-    Bio:
-      `I am a computer scientist who graduated from Georgia Tech. 
-      During my time at Tech I was a teaching assistant for two courses, 
-      one on data structures and another on software design. 
-      I also participated in research labs from 2011-2013 and was a finalist
-      in a systems engineering design competition, the Intel Cornell Cup in 2012. 
-      At Tech I specialized in two threads. Computer Architecture and Artificial Intelligence. 
-      I did research in areas as diverse as distributed networks, robotics, molecular simulators, 
-      and computation offloading to the cloud. My research also won awards at UROC from 2011-2013 
-      and I was a PURA award Recipient in 2012. The Intel competition led to two internships
-      with Intel where I worked on natural user interfaces the first year and on video 
-      compressions algorithms the second year. After graduation I joined Microsoft on a then 
-      secret project today known as the Edge browser. I worked to improve the performance 
-      of their JavaScript compiler while also bringing it into compliance with the ecmascript 6 
-      standard. The release of Windows 10 was a monumental achievement for me and my team. 
-      For the first time Microsoft shipped a browser that had a faster and more standard 
-      compliant JavaScript compiler than Google, Mozilla, and Apple. I then worked on an 
-      extensive effort to open source and port our compiler to Linux and OS X. The project can 
-      be found on Github at Microsoft/Chakracore. After two years I left Microsoft and returned 
-      to Atlanta to work at a Startup called Ionic Security. The company is primarily an endpoint 
-      encryption platform. On my first team we focus on file encryption, where I built out an 
-      IRM (information rights management) and analytics strategy for them. I reverse engineered 
-      closed source productivity applications so that we could inject code into the process for
-      analysis and controlling the flow of data between apps, printers, and users. Later then 
-      I transitioned to work on their sdk team where I was instrumental in the creation of a 
-      native java and javascript sdk while also adding many features to their c++ sdk such as 
-      an extensible offline key vault api. I am now a Graduate Research engineer in the HParch 
-      lab at Gatech where I do research in computer architecture so that I can pursue a masters 
-      degree in my new passion computer graphics.`,
     Social: {
       Github: "https://github.com/farzonl",
       Twitter: "https://twitter.com/noztol",
@@ -65,27 +36,141 @@ const configuration = {
   Resume: "https://farzon.org/files/Resume.pdf",
   AdditionalSections: [
     {
-      images: [
+      direction: "row",
+      items: [
         {
-          label: "The GT Night Rover team",
-          imgPath: "https://farzon.org/imgs/gtnightrover.png"
+          description: `I am a computer scientist who graduated from Georgia Tech. 
+          During my time at Tech I was a teaching assistant for two courses, 
+          one on data structures and another on software design. 
+          I also participated in research labs from 2011-2013 and was a finalist
+          in a systems engineering design competition, the Intel Cornell Cup in 2012. 
+          At Tech I specialized in two threads. Computer Architecture and Artificial Intelligence. 
+          I did research in areas as diverse as distributed networks, robotics, molecular simulators, 
+          and computation offloading to the cloud. My research also won awards at UROC from 2011-2013 
+          and I was a PURA award Recipient in 2012.`,
+          type: "textBlock"
         },
         {
-          label: "The 2011 UROC award winning poster",
-          imgPath: "https://farzon.org/imgs/micrograph.png"
-        },
-        {
-          label: "The 2012 UROC award winning poster",
-          imgPath: "https://farzon.org/imgs/lammps.png"
-        },
-        {
-          label: "The 2013 UROC award winning poster",
-          imgPath: "https://farzon.org/imgs/offload.png"
+          images: [
+            {
+              label: "The GT Night Rover team",
+              imgPath: "https://farzon.org/imgs/gtnightrover.png"
+            },
+            {
+              label: "The 2011 UROC award winning poster",
+              imgPath: "https://farzon.org/imgs/micrograph.png"
+            },
+            {
+              label: "The 2012 UROC award winning poster",
+              imgPath: "https://farzon.org/imgs/lammps.png"
+            },
+            {
+              label: "The 2013 UROC award winning poster",
+              imgPath: "https://farzon.org/imgs/offload.png"
+            }
+          ],
+          type: "caurosel"
         }
       ],
-      name: "Pictures",
-      barId: "Pictures",
-      type: "caurosel",
+      type: "contentGrid",
+      orientation: "top"
+    },
+
+    {
+      direction: "row",
+      items: [
+        {
+          images: [
+            {
+              label: "MeshMangle",
+              imgPath: "https://farzon.org/imgs/intel/MeshMangle.png"
+            },
+            {
+              label: "MeshMangle Plain",
+              imgPath: "https://farzon.org/imgs/intel/MeshManglePlain.png"
+            },
+            {
+              label: "MeshMangle With Deformation",
+              imgPath: "https://farzon.org/imgs/intel/MeshMangleDeform.png"
+            },
+            {
+              label: "MeshMangle Tessellation Growth",
+              imgPath: "https://farzon.org/imgs/intel/MeshMangleGrow.png"
+            },
+            {
+              label: "MeshPaint Plain",
+              imgPath: "https://farzon.org/imgs/intel/meshPaintPlain.png"
+            },
+            {
+              label: "MeshPaint Painted",
+              imgPath: "https://farzon.org/imgs/intel/meshPaintColored.png"
+            },
+            {
+              label: "Pop the bubbles game",
+              imgPath: "https://farzon.org/imgs/intel/bubble.png"
+            },
+            {
+              label: "Camera Textured Cube, Rotated with Hand Gestures",
+              imgPath: "https://farzon.org/imgs/intel/cube.png"
+            },
+            {
+              label: "Depth Camera with gesture recognition",
+              imgPath: "https://farzon.org/imgs/intel/dephth1.png"
+            },
+            {
+              label: "Color Interpolation & Audio augmentation using hand gestures",
+              imgPath: "https://farzon.org/imgs/intel/perceptualGesture.png"
+            },
+            {
+              label: "MIDI piano controls using hand gestures",
+              imgPath: "https://farzon.org/imgs/intel/piano.png"
+            },
+          ],
+          type: "caurosel"
+        },
+        {
+          description: `The Intel competition led to two internships with Intel where 
+                        I worked on natural user interfaces the first year and on video 
+                        compressions algorithms the second year.`,
+          type: "textBlock"
+        }
+      ],
+      type: "contentGrid",
+      orientation: "top"
+    },
+    {
+      direction: "row",
+      items: [
+        {
+          description: `After graduation I joined Microsoft on a then 
+          secret project today known as the Edge browser. I worked to improve the performance 
+          of their JavaScript compiler while also bringing it into compliance with the ecmascript 6 
+          standard. The release of Windows 10 was a monumental achievement for me and my team. 
+          For the first time Microsoft shipped a browser that had a faster and more standard 
+          compliant JavaScript compiler than Google, Mozilla, and Apple. I then worked on an 
+          extensive effort to open source and port our compiler to Linux and OS X. The project can 
+          be found on Github at Microsoft/Chakracore.`,
+          type: "textBlock"
+        },
+        {
+          description: ` I left Microsoft to work at a Startup (Ionic Security). The company is 
+          primarily an endpoint encryption platform. On my first team we focus on file encryption, 
+          where I built out an  IRM (Information Rights Management) and analytics strategy for them. 
+          I reverse engineered closed source productivity applications to inject code into a process for
+          analysis and controlling the flow of data between apps, printers, and users. Later
+          I transitioned to work on their sdk team where I was instrumental in the creation of a 
+          native java and javascript sdk while also adding many features to their c++ sdk such as 
+          an extensible offline key vault api.`,
+          type: "textBlock"
+        },
+        {
+          description: ` I am now a Graduate Research engineer in the HParch 
+          lab at Gatech where I do research in computer architecture so that I can pursue a masters 
+          degree in my new passion computer graphics.`,
+          type: "textBlock"
+        }
+      ],
+      type: "contentGrid",
       orientation: "top"
     },
     {
