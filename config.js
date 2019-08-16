@@ -70,15 +70,7 @@ const configuration = {
             }
           ],
           type: "caurosel"
-        }
-      ],
-      type: "contentGrid",
-      orientation: "top"
-    },
-
-    {
-      direction: "row",
-      items: [
+        },
         {
           images: [
             {
@@ -133,14 +125,7 @@ const configuration = {
                         I worked on natural user interfaces the first year and on video 
                         compressions algorithms the second year.`,
           type: "textBlock"
-        }
-      ],
-      type: "contentGrid",
-      orientation: "top"
-    },
-    {
-      direction: "row",
-      items: [
+        },
         {
           description: `After graduation I joined Microsoft on a then 
           secret project today known as the Edge browser. I worked to improve the performance 
