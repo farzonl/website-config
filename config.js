@@ -12,7 +12,9 @@ const configuration = {
   },
   Github: {
     showForkedRepos: false,
-    filterByTopics: true
+    filterByTopics: true,
+    topicsSortWeight: .5
+    
   },
 
   View: {
