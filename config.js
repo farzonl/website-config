@@ -35,6 +35,7 @@ const configuration = {
     Frameworks: ["Node-js", "Dot-Net", "Arduino", "OpenGL", "OpenCV"],
     Tools: ["CMake", "Makefile", "Gradle", "Shell"]
   },
+  Blog: "https://blog.farzon.org",
   Resume: "https://farzon.org/files/Resume.pdf",
   AdditionalSections: [
     {
