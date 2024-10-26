@@ -218,6 +218,13 @@ const configuration = {
           description:
             "A project I built at Intel that showed realtime video game streaming using Intels Hardware accelerated Media SDK.",
           tag: "Graphics"
+        },
+        {
+          name: "Developing an HLSL intrinsic for the SPIR-V and DirectX backends",
+          url: "https://farzon.org/files/posters/HLSL_Intrinsics_LLVM2024.pdf",
+          description:
+            "Adding HLSL as a dialect of Clang for Microsoft as part of the modernization effort.",
+          tag: "Compilers"
         }
       ]
     }
