@@ -118,6 +118,27 @@ const configuration = {
     },
     {
       type: "collection",
+      barId: "Talks",
+      name: "Techincal Presentations",
+      description: "Here are some featured technical talks of mine",
+      orientation: "bottom",
+      item: [
+        {
+          name: "Where We’re Legalizing, We Don’t Need Validators: Generating valid DXIL for the DirectX Backend",
+          url: "https://farzon.org/files/presentations/llvm-dev-meeting-2025.pdf",
+          description: "Talk presents legalization patterns in the DirectX backend.",
+          tag: "Compilers"
+        },
+        {
+          name: "Binary Obfuscation that doesn't kill LTO: Making Function Layout Randomization Possible for the Switch",
+          url: "https://farzon.org/files/presentations/Thotcon_talk_may_2025.pdf",
+          description: "Talk presents a performant function layout randomization algorithm.",
+          tag: "RevEng"
+        },
+      ]
+    },
+    {
+      type: "collection",
       barId: "Papers",
       name: "Techincal Papers",
       description: "Here are some featured technical papers of mine",
