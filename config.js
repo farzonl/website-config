@@ -41,8 +41,16 @@ const configuration = {
         {
           images: [
             {
+              label: "2025 LLVM Dev Meeting Talk",
+              imgPath: "https://farzon.org/imgs/llvm_25_talk.jpeg"
+            },
+            {
               label: "2024 LLVM Dev Meeting Poster Session",
               imgPath: "https://farzon.org/imgs/llvm_poster.jpeg"
+            },
+            {
+              label: "2019 GT CASL GRA team lunch",
+              imgPath: "https://farzon.org/imgs/Hyesoon_lab.png"
             },
             {
               label: "The GT Night Rover team",
