@@ -45,6 +45,10 @@ const configuration = {
               imgPath: "https://farzon.org/imgs/llvm_25_talk.jpeg"
             },
             {
+              label: "2025 Thotcon Talk",
+              imgPath: "https://farzon.org/imgs/thotcon-2025.png"
+            },
+            {
               label: "2024 LLVM Dev Meeting Poster Session",
               imgPath: "https://farzon.org/imgs/llvm_poster.jpeg"
             },
